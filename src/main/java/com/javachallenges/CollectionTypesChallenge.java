@@ -16,6 +16,12 @@ public class CollectionTypesChallenge {
 
 		System.out.println(set.headSet("c"));
 		System.out.println(set.tailSet("b"));
+
+		//// [a,b]
+		//// [b,c]
+		///  [a, b]
+		///  [b, c]
+        ///y
 	}
 
 }

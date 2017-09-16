@@ -15,4 +15,8 @@ public class DeclarationChallenge {
 		DeclarationChallenge d = new DeclarationChallenge();
 		System.out.println(d.nobugs + "  " + d.noStress);
 	}
+
+    //// 51 50
+    ///  1  50
+    ///x
 }

@@ -20,4 +20,8 @@ public class CrazyOverloadingChallenge {
 					new CrazyOverloadingChallenge();
 			challenge.method(null);
 		}
+
+		//// Object
+        ///  RuntimeException!
+        ///wtf
 }

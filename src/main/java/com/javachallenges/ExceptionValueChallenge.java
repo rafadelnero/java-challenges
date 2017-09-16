@@ -13,6 +13,10 @@ public class ExceptionValueChallenge {
 			}
 		}
 
+        //// 1 2 0
+        ///  java.lang.Throwable: Error
+        ///x
+
 		static int lightningOfZeus(int i) throws Exception {
 			throw new StackOverflowError("Wowww!");
 		}

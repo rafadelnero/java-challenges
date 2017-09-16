@@ -28,3 +28,8 @@ public class AnnotationChallenge {
 		System.out.println(result); 	}
 } @Retention(RetentionPolicy.RUNTIME)  @interface CrazyAnnotation 
 { String value(); }
+
+//// CrazyAnnotationMethod
+///  com.javachallenges.CrazyAnnotationMethod
+///x
+

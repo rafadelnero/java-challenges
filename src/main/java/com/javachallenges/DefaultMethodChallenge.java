@@ -13,6 +13,9 @@ public class DefaultMethodChallenge {
 
 		jofrey.kill();
 	}
+    //// "When you play the Game of Thrones, you win or die"
+    ///  Kill them all!
+    ///x
 
 	interface Cersei {
 		default void kill() {

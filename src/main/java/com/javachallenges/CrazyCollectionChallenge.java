@@ -22,5 +22,9 @@ public class CrazyCollectionChallenge {
 		crazyList.add(crazyMap);
 		
 		System.out.println(crazyList.get(0).size());
+
+		//// 2
+		///  2
+        ///y
 	}
 }

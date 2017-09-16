@@ -11,6 +11,10 @@ public class AdvancedOverloadingChallenge3 {
 		executeAction(1L);
 		
 		System.out.println(x);
+
+		//// 6733
+		///  6736
+        ///x
 	}
 	static void executeAction(int ... var) {x += "1"; }
 	static void executeAction(Integer var) {x += "2"; }

@@ -13,6 +13,10 @@ public class AdvancedOverloadingChallenge2 {
 		doStuff(sa, sa);
 		doStuff(4L);
 		System.out.println(s);
+
+		//// 2424
+		///  2124
+        ///x
 	}
 	
 	static void doStuff(Object o) { s += "1"; }

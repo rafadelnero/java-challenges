@@ -15,10 +15,14 @@ public class ArrayOutputChallenge {
 		list.add("Cersei");
 		list.add("Daenerys");
 		list.add("Jaime");
-		
+
 		doProcess(list);
 		
 		System.out.println(list.size());
+
+		//// exception due to modifying a list in an iterator
+        ///  exception due to modifying a list in an iterator
+        ///y
 	}
 	
 	static void doProcess(List<String> list) {

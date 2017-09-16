@@ -11,6 +11,12 @@ public class BitWiseChallenge {
 		
 		System.out.println(Integer.toBinaryString(BIT_NUMBER));
 		System.out.println(Integer.toBinaryString(bitwise));
+
+		//// 011
+		//// 001111
+		///  110
+		///  11
+        ///x
 	}
 	
 }

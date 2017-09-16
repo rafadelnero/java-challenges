@@ -18,6 +18,12 @@ public class EnumChallenge {
 	System.out.println(dragonBall2); // Make your best
     }
 
+    //// Same dragon ball
+    //// FIFTH
+    ///  Same dragon ball
+    ///  FIFTH
+    ///y
+
     enum DragonBalls implements Invoker {
 	FIRST, SECOND, THIRD, FOURTH, FIFTH, SIXTH, SEVENTH;
 

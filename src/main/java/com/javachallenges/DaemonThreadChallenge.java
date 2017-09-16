@@ -22,4 +22,10 @@ public class DaemonThreadChallenge implements Runnable {
 				}
 			}
 		}
+
+		//// For ever
+        ///  Sometimes it outputs
+        ///  Sometimes it does not
+        ///  Sometimes it throws Exception in thread "Thread-0" java.lang.IllegalMonitorStateException
+        ///wtf
 }

@@ -21,10 +21,13 @@ public class ExceptionsDeclarationChallenge {
 	
 	static class Sheldon extends Scientist {
 		// We can't throw a broader Exception 
-		// in the overrode method
+		// in the override method
 		public void talk() /*throws IOException*/ {
 			System.out.println("My spot");
 		}
 	}
-	
+
+    //// Making experiences
+    ///  compile error
+    ///-
 }

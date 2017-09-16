@@ -16,6 +16,15 @@ public class ArrayValuesChallenge {
 		System.out.println(""+ forresters[1] + starks[1]);
 
 		System.out.println(mormonts[4] + starks[1]);
+
+		//// 0
+		//// 00
+		//// 0
+
+		/// 0
+		/// null0
+		/// 0.0
+        ///x
 	}
 	
 }

@@ -15,6 +15,18 @@ public class BinarySearchChallenge {
 	System.out.println(marvel[Arrays.binarySearch(marvel, "Carnage")]);
 	System.out.println(Arrays.binarySearch(marvel, "Lizard"));
 	System.out.println(Arrays.binarySearch(marvel, "ACrime Master"));
+
+	//// "Spiderman", "Venom", "Carnage", "Mysterio"
+	//// -4
+	//// Carnage
+	//// -3
+	//// -1
+	///  [Ljava.lang.String;@14ae5a5
+	///  -5
+	///  Carnage
+	///  -2
+	///  -1
+    ///x
     }
     
 }

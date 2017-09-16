@@ -9,5 +9,9 @@ public class ArrayDimensionChallenge {
 		num2[0][0] = 5;
 
 		System.out.println(num[0] + "," + num2[0]);
+
+		//// NPE
+		///  NPE
+        ///y
 	}
 }
