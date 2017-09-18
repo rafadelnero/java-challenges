@@ -22,5 +22,15 @@ public class FilterChallenge {
 
 		list.stream().flatMap(flatMapper).forEach(System.out::println);
 	}
-
+    //// 3
+    //// 43
+    //// 33
+    //// 787
+    //// 1
+    //// 2
+    //// 390
+    //// 9
+    //// 10
+    /// same
+    ///y
 }

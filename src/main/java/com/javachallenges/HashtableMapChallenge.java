@@ -20,5 +20,10 @@ public class HashtableMapChallenge {
 		
 		System.out.println(hashtable);
 	}
-	
+    //// RTE as Hashtable cannot have null keys
+    ///  Exception in thread "main" java.lang.NullPointerException
+    ///     at java.util.Hashtable.put(Hashtable.java:464)
+    ///     at java.util.Hashtable.putAll(Hashtable.java:523)
+    ///     at com.javachallenges.HashtableMapChallenge.main(HashtableMapChallenge.java:19)
+    ///y
 }

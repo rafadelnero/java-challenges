@@ -22,4 +22,7 @@ public class InitializationChallenge {
 			System.out.println(i.stallone + "  " + i.jackieChan
 					+ " " + i.bruceLee);
 		}
+        //// 1 20 21
+        ///  1 20 21
+        ///y
 }

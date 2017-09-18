@@ -16,5 +16,11 @@ public class IntegerChallenge {
 	
 	System.out.println(new Integer(1) == new Integer(1));
     }
-    
+    //// false
+    //// false
+    //// false
+    ///  true
+    ///  false
+    ///  false
+    ///x
 }

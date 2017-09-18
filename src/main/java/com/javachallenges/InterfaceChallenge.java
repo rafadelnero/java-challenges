@@ -5,7 +5,7 @@ public class InterfaceChallenge {
 	public static void main(String[] args) {
 		new Homer().action();
 	}
-	
+
 	static class Homer implements Prankster, Crazy {
 		@Override
 		public void action() {
@@ -20,4 +20,7 @@ public class InterfaceChallenge {
 	interface Crazy {
 		void action();
 	}
+    //// Test
+    ///  Test
+    ///y
 }

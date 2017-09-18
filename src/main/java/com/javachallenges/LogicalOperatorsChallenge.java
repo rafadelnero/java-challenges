@@ -27,5 +27,7 @@ public class LogicalOperatorsChallenge {
 	
 	System.out.println(spiderMan + venom + carnage);
     }
-    
+    //// 16 + 7 + 51 = 74
+    ///  74
+    ///y
 }	

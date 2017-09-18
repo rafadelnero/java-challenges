@@ -19,4 +19,7 @@ public class ListRemoveIfChallenge {
 		
 		System.out.println(list);
 	}
+    //// ArrayList@21536723
+    ///  [23, 10, 12, 13, 0]
+    ///x
 }

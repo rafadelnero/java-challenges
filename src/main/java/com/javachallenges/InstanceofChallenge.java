@@ -14,5 +14,7 @@ public class InstanceofChallenge {
 		if (null instanceof StackOverflowError)
 			System.out.println("null is instance of StackOverflowError");
 	}
-	
+    //// prints nothing
+    ///  prints nothing
+    ///y
 }

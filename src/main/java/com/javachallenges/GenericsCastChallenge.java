@@ -15,10 +15,14 @@ public class GenericsCastChallenge {
 		Integer mewtwo = (Integer) 89898989;
 
 		Integer pokeball1 = cast(charmander);
-		Integer pokeball2 = cast(pikachu); 
-		Integer pokeball3 = cast(wartortle); 
+		Integer pokeball2 = cast(pikachu);
+		Integer pokeball3 = cast(wartortle);
 		String pokeball4 = cast(mewtwo);
 		System.out.printf("p1 = %d, p2 = %d, p3 = %d, p4 = %d", pokeball1, 
 			pokeball2, pokeball3, pokeball4);
 	}
+    //// RTE @ LOC:19
+    ///  Exception in thread "main" java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+    ///  at com.javachallenges.GenericsCastChallenge.main(GenericsCastChallenge.java:20)
+    ///x
 }

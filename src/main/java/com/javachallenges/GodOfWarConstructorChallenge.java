@@ -28,4 +28,7 @@ public class GodOfWarConstructorChallenge {
 			new GodOfWarConstructorChallenge(new Integer(4));
 		System.out.println(thirdGod.name);
 	}
+    //// Zeus\n, Kratos\n, Athena\n
+    ///  Zeus\n, Kratos\n, Athena\n
+    ///y
 }

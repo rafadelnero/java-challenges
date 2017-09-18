@@ -27,4 +27,7 @@ public strictfp class IsItGoingToCompileChallenge <A extends Object,B,
 	synchronized void test() {Arrays.asList(b.getClass().getDeclaredClasses())
 		.forEach(System.out::print); 
 	}
+    //// compiles
+    ///  compiles
+    ///y
 }

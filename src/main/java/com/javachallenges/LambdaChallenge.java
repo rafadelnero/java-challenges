@@ -18,4 +18,7 @@ public class LambdaChallenge {
 	public interface SpecialPower {
 		String kamehameha();
 	}
+    //// Kame-ha-me-ha!Kame-ha!!
+    ///  Kame-ha-me-ha!Kame-ha!!
+    ///y
 }

@@ -21,5 +21,7 @@ public class FlowControlChallenge {
 			
 			System.out.println(result + isHomerFat + isBartPrankster);
 		}
-
+        //// 3false3false
+        ///  3false3false
+        ///x
 }

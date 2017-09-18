@@ -31,6 +31,9 @@ public class GarbageCollectorTest {
 
 	    elBarto.talk();
 	}
+    //// 1
+    ///  ?
+    ///?
 
 	private void makeTwoCharactersTalk(Character misterBurns, Character homer) {
 	    misterBurns.talk();

@@ -10,10 +10,13 @@ public class GenericsListChallenge {
 	public static void main(String... doYourBest) {
 		printList(new ArrayList<>());
 	}
-	
+
 	static void printList(List <? extends Object> list) {
 		// list.add(3);
 		// list.add(7);
 		// list.add(27);
 	}
+    //// Compiler error due to adding to an upper-bounded list
+    ///  same
+    ///y
 }

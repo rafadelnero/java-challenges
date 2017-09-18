@@ -18,5 +18,10 @@ public class ListChallenge {
  
         System.out.println(soldiers);
     }
- 
+    //// ArrayList@17899
+    ///  Exception in thread "main" java.lang.UnsupportedOperationException
+    ///     at java.util.AbstractList.add(AbstractList.java:148)
+    ///     at java.util.AbstractList.add(AbstractList.java:108)
+    ///     at com.javachallenges.ListChallenge.main(ListChallenge.java:16)
+    ///x
 }
