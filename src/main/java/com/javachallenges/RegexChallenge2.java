@@ -29,4 +29,13 @@ public class RegexChallenge2 {
             System.out.println("NO MATCH");
         }
     }
+    //// :(
+    ///  NO MATCH
+    ///  Found value: lisa@gmail.com
+    ///  Found value: misterburns$gmail.com
+    ///  Found value: homer_simpson@hotmail<com
+    ///  NO MATCH
+    ///  NO MATCH
+    ///
+    ///x
 }

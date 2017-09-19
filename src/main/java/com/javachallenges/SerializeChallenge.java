@@ -29,6 +29,9 @@ public class SerializeChallenge {
 	System.out.println(xmen.power);
 	ois.close();
     }
+    //// Wolverine\n null
+    ///  Wolverine\n null
+    ///y
 }
 
 class Xmen implements Serializable { private static final 

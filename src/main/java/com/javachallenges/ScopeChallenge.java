@@ -18,5 +18,7 @@ public class ScopeChallenge {
 		
 		System.out.println(another++);
 	}
-	
+    //// 5
+    ///  5
+    ///y
 }

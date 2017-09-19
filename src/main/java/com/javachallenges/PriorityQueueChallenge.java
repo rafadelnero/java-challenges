@@ -22,4 +22,9 @@ public class PriorityQueueChallenge {
 				.filter(s -> s.toString().toString()
 				.startsWith("Ho")).findFirst().get());
 	}
+    //// null
+    ///  Exception in thread "main" java.util.NoSuchElementException: No value present
+    ///  at java.util.Optional.get(Optional.java:135)
+    ///  at com.javachallenges.PriorityQueueChallenge.main(PriorityQueueChallenge.java:23)
+    ///x
 }

@@ -18,4 +18,7 @@ public class StringChallenge2 {
 		
 		System.out.println(result);
 	}
+    //// 2367
+    ///  2367
+    ///y +1
 }

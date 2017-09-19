@@ -9,5 +9,7 @@ public class StaticImportChallenge {
 		// println("Using Static import!");
 		System.out.println();
 	}
-
+    ////
+    ///
+    ///?
 }

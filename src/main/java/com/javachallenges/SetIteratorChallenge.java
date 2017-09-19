@@ -18,5 +18,11 @@ public class SetIteratorChallenge {
 			System.out.println(it.next() + "");
 		}
 	}
-
+    //// 2 1 1
+    ///  Exception in thread "main" java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+    ///     at java.lang.Integer.compareTo(Integer.java:52)
+    ///     at java.util.TreeMap.put(TreeMap.java:568)
+    ///     at java.util.TreeSet.add(TreeSet.java:255)
+    ///     at com.javachallenges.SetIteratorChallenge.main(SetIteratorChallenge.java:14)
+    ///x
 }

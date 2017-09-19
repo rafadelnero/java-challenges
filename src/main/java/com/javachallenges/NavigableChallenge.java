@@ -17,4 +17,9 @@ public class NavigableChallenge {
 
 		System.out.println(map);
 	}
+	//// 3\n null
+    ///  3
+    ///  2
+    ///  {1=Tyrion, 100=Jon Snow, 101=Cersei, 2=Jaime, 3=Arya}
+    ///x
 }

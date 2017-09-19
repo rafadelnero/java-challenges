@@ -19,5 +19,7 @@ public class ReferenceChallenge {
 
 		System.out.println("s=" + s + " sb=" + sb);
 	}
-	
+    //// s=knight sb=knightsword
+    ///  s=knight sb=swordknightsword
+    ///x
 }

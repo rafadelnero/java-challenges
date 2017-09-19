@@ -23,4 +23,7 @@ public class MapEqualsChallenge {
 					this.name.length(); }
 		public int hashCode() { return 4000 << 2 * 2000 / 10000; }
 	}
+    //// 2\n 4 \n 5
+    ///  4\n 2 \n 5
+    ///x nice LinkedHashMap usage
 }

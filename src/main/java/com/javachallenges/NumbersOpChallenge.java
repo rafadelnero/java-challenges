@@ -12,5 +12,8 @@ public class NumbersOpChallenge {
 		
 		System.out.println(0 / ZERO);
 	}
-
+    //// ArithmeticException
+    ///  NaN
+    ///  NaN
+    ///x
 }

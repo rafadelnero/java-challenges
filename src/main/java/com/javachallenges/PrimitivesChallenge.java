@@ -18,4 +18,7 @@ public class PrimitivesChallenge {
 			BigDecimal bigDecimalNumber) {
 		return intNumber + doubleNumber + bigDecimalNumber.intValue();
 	}
+    //// NPE
+    ///  NPE
+    ///y
 }

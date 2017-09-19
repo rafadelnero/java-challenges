@@ -25,6 +25,9 @@ public class SortComparableChallenge {
         Collections.reverse(list);
         list.forEach(System.out::println);
     }
+    //// Bart\n Homer\n Lisa\n Maggie\n Marge
+    ///  Bart\n Homer\n Lisa\n Maggie\n Marge
+    ///y
 
     static class Simpson implements Comparable<Simpson> {
         String name;

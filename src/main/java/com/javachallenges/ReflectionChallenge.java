@@ -15,4 +15,7 @@ public class ReflectionChallenge {
 				List, String>>>().getClass();
 		System.out.println(c1 == c2 | c3 == c2);
 	}
+    //// true
+    ///  true
+    ///x
 }

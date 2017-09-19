@@ -14,9 +14,11 @@ public class ShadowChallenge {
 		System.out.println(new ShadowChallenge().number + 
 				ShadowChallenge.number);
 	}
-	
+
 	static void executeTest(long number) {
 		System.out.println(ShadowChallenge.number + number);
 	}
-	
+    //// 170\n 200
+    ///  170\n 200
+    ///y
 }

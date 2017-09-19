@@ -14,5 +14,7 @@ public class PredicateChallenge {
 		
 		System.out.println(finalStarkPredicate.test("Ned Stark 777 #$"));
 	}
-	
+    //// false
+    ///
+    ///wtf
 }

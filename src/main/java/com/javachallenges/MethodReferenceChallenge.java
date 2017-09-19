@@ -24,5 +24,7 @@ public class MethodReferenceChallenge {
 			return talk;
 		}
 	}
-	
+    //// prints nothing
+    ///  D'oh!\nD'oh!\nD'oh!
+    ///x
 }

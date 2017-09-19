@@ -13,5 +13,7 @@ public class StringTest {
 	
 	System.out.println(batman + robin + joker + anotherJoker);
     }
-    
+    //// 3 objects created: BatmanRobinJokerJoker
+    ///  BatmanRobinJokerJoker
+    ///?
 }

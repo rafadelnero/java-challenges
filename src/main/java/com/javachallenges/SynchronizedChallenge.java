@@ -16,6 +16,12 @@ public class SynchronizedChallenge implements Runnable {
 		
 		thread.notify();
 	}
+    //// Do it!\n In the end!
+    ///  Do it!
+    ///  Exception in thread "main" java.lang.IllegalMonitorStateException
+    ///     at java.lang.Object.notify(Native Method)
+    ///     at com.javachallenges.SynchronizedChallenge.main(SynchronizedChallenge.java:17)
+    ///wtf: current thread must own that object's monitor
 
 	@Override
 	public synchronized void run() {

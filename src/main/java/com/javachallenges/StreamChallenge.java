@@ -19,7 +19,9 @@ public class StreamChallenge {
 		
 		System.out.println(Optional.of(simpsonAge).orElse(2));
 	}
-
+    //// 30
+    ///  30
+    ///y
 	static class Simpson {
 		String name;
 		int age;

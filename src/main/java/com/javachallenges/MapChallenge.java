@@ -37,5 +37,9 @@ public class MapChallenge {
         public int hashCode() {
             return 1 + 8 * 453453 << 1 >> 5 >> 78 >>> 6 << 4 >>> 6;
         }
+
     }
+    //// 1
+    ///  1
+    ///y
 }
