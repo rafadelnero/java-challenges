@@ -9,7 +9,9 @@ public class VariableInitializationChallenge {
 		int secondNumber;
 		int thirdNumber = 3;
 
-		//System.out.println((firstNumber++) + (secondNumber++) + (thirdNumber++));
+//		System.out.println((firstNumber++) + (secondNumber++) + (thirdNumber++));
 	}
-
+    //// 1303
+    ///  Error:(12, 55) java: variable secondNumber might not have been initialized
+    ///x
 }

@@ -10,4 +10,7 @@ public class TokenChallenge {
 			System.out.println(teste[i] + ">>");
 		}
 	}
+    //// Solve all >>\n the Java >>\n Challenges!>>
+    ///  Solve all >>\n the Java >>\n Challenges!>>
+    ///y
 }

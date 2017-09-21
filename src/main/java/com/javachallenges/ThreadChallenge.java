@@ -23,6 +23,9 @@ public class ThreadChallenge {
 	}
 	
     }
-    
+    //// 14
+    ///  10
+    ///x - all threads start after the main method finishes;
+    //     breakpoint in run() only gets hit once
 }
 

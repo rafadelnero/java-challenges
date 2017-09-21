@@ -12,12 +12,16 @@ public class WildCardsChallenge {
 
 		public static void main(String ... doYourBest) {
 			foo(new Sparta<Zeus>()); 
-			
-			foo(new Sparta<Kratos>()); 
-			//foo(new C<Atreus>()); 
+			foo(new Sparta<Kratos>());
+//			foo(new Sparta<Atreus>());
+//			foo(new C<Atreus>());
 			foo(new Sparta()); 
 			
 			System.out.println("Everything went fine!");
 		}
-
+        //// Compiler error @ 17
+        ///  Error:(17, 33) java: cannot find symbol
+        ///    symbol:   class C
+        ///    location: class com.javachallenges.WildCardsChallenge
+        ///-
 }

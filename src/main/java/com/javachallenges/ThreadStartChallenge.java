@@ -10,7 +10,6 @@ public class ThreadStartChallenge {
 		
 		heisenberg.start();
 		heisenberg.join();
-		
 		heisenberg.start();
 		heisenberg.join();
 	}
@@ -22,5 +21,10 @@ public class ThreadStartChallenge {
 		}
 		
 	}
-	
+    //// I am the danger!
+    ///  I am the danger!
+    ///  Exception in thread "main" java.lang.IllegalThreadStateException
+    ///     at java.lang.Thread.start(Thread.java:708)
+    ///     at com.javachallenges.ThreadStartChallenge.main(ThreadStartChallenge.java:14)
+    ///x - can you restart threads after they are TERMINATED
 }
