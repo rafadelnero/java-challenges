@@ -1,0 +1,26 @@
+set.add(new Simpson("Homer"));
+set.add(new Simpson("Marge"));
+set.add(new Simpson("Lisa"));
+set.add(new Simpson("Bart"));
+set.add(new Simpson("Maggie"));
+
+Set<Simpson> set = new LinkedHashSet<>();
+Maggie
+Bart
+Lisa
+Marge
+Homer
+
+Set<Simpson> set = new HashSet<>();
+Homer
+Bart
+Marge
+Maggie
+Lisa
+
+Set<Simpson> set = new TreeSet<>();
+Bart
+Homer
+Lisa
+Maggie
+Marge
