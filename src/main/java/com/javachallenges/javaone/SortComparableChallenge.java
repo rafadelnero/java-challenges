@@ -1,15 +1,8 @@
 package com.javachallenges.javaone;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
-/** See the answer and the concepts behind the scenes 
- *  on nobugsproject.com */
 public class SortComparableChallenge {
-    // Make your best
     public static void main(String[] args) {
         Set<Simpson> set = new TreeSet<>();
         set.add(new Simpson("Homer"));
@@ -37,8 +30,17 @@ public class SortComparableChallenge {
         @Override
         public String toString() { return this.name; }
     }
+    // A) Bart     B) Maggie      C) Marge    D) Indeterminate
+    //    Homer       Bart           Maggie
+    //    Lisa        Lisa           Lisa
+    //    Maggie      Marge          Bart
+    //    Marge       Homer          Homer
 
     // uses multi list reversal
 
-    // A     // B     // C     // D
+    // As much as is reasonably practical, the hashCode method defined by class
+    // Object does return distinct integers for distinct objects.
+    // (This is typically implemented by converting the internal address of the object
+    // into an integer, but this implementation technique is not required by the Java™
+    // programming language.)
 }

@@ -4,9 +4,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.IntStream;
 
-/** Soon you will see the concepts 
- *  behind the scenes on nobugsproject.com */
 public class StreamChallenge {
     public static void main(String[] doYourBest) {
         List<Simpson> simpsons = Arrays.asList(new Simpson("Homer", 35),
@@ -17,7 +16,12 @@ public class StreamChallenge {
                 .filter(age -> age >= 20)
                 .min(Comparator.naturalOrder()).get();
 
-        System.out.println(Optional.of(simpsonAge).orElse(2));
+//        System.out.println(Optional.of(simpsonAge).orElse(2));
+
+        Optional.of(simpsonAge).ifPresent(theAge -> {
+            int minAge = IntStream.iterate(theAge, j -> j + 1).limit(50).min().orElse(2);
+            System.out.println(minAge);
+        });
     }
 
     static class Simpson {
@@ -29,7 +33,8 @@ public class StreamChallenge {
             this.age = age;
         }
     }
-    // A)    // B)    // C)    // D)
+    // A) 2     B) NullPointerException
+    // C) 30    D) 35
 
     // using Optional
     // change to use infinite streams

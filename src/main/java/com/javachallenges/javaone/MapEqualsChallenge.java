@@ -19,9 +19,10 @@ public class MapEqualsChallenge {
         public boolean equals(Object obj) {
             return ((Stark)obj).name.length() ==
                     this.name.length(); }
-        public int hashCode() { return 4000 << 2 * 2000 / 10000; }
+        public int hashCode() { return (name.length() % 1) * 7; }
     }
-    // A) 1> 2> 3> 4> 5>    // B) 2> 4> 5>   // C) Undetermined    // D) 5> 4> 3> 2> 1>
+    // A) 1> 2> 3> 4> 5>    B) 2> 4> 5>
+    // C) Indeterminate     D) 5> 4> 3> 2> 1>
 
     // Change the hashcode impl to be false/not equals
     // Read up on hashcode/equals rules
