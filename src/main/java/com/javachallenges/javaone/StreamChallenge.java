@@ -13,13 +13,12 @@ public class StreamChallenge {
                 new Simpson("Lisa", 8));
 
         Integer simpsonAge = simpsons.stream().map(e -> e.age)
-                .filter(age -> age >= 20)
+                .filter(age -> age >= 35)
                 .min(Comparator.naturalOrder()).get();
 
-//        System.out.println(Optional.of(simpsonAge).orElse(2));
-
         Optional.of(simpsonAge).ifPresent(theAge -> {
-            int minAge = IntStream.iterate(theAge, j -> j + 1).limit(50).min().orElse(2);
+            int minAge = IntStream.iterate(theAge, j -> j + 1)
+                         .limit(50).min().orElse(2);
             System.out.println(minAge);
         });
     }
@@ -33,9 +32,12 @@ public class StreamChallenge {
             this.age = age;
         }
     }
-    // A) 2     B) NullPointerException
-    // C) 30    D) 35
-
-    // using Optional
-    // change to use infinite streams
 }
+// A) 2     B) NullPointerException
+// C) 30    D) 35
+
+// using Optional
+// change to use infinite streams
+
+//        System.out.println(Optional.of(simpsonAge).orElse(2));
+

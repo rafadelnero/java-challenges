@@ -30,17 +30,17 @@ public class SortComparableChallenge {
         @Override
         public String toString() { return this.name; }
     }
+}
     // A) Bart     B) Maggie      C) Marge    D) Indeterminate
     //    Homer       Bart           Maggie
     //    Lisa        Lisa           Lisa
     //    Maggie      Marge          Bart
     //    Marge       Homer          Homer
 
-    // uses multi list reversal
+// uses multi list reversal
 
-    // As much as is reasonably practical, the hashCode method defined by class
-    // Object does return distinct integers for distinct objects.
-    // (This is typically implemented by converting the internal address of the object
-    // into an integer, but this implementation technique is not required by the Java™
-    // programming language.)
-}
+// As much as is reasonably practical, the hashCode method defined by class
+// Object does return distinct integers for distinct objects.
+// (This is typically implemented by converting the internal address of the object
+// into an integer, but this implementation technique is not required by the Java™
+// programming language.)

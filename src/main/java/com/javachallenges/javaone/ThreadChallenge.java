@@ -17,7 +17,6 @@ public class ThreadChallenge {
         System.out.println(thread.wolverineAdrenaline);
     }
 
-    // NoBugsProject
     class Motorcycle extends Thread {
         public Motorcycle(String bikeName) {
             this.setName(bikeName);
@@ -28,9 +27,10 @@ public class ThreadChallenge {
             ++wolverineAdrenaline;
         }
     }
-    // A) 14    B) 10
-    // C) 13    D) Indeterminate
-
-    // The answer depends on the jvm implementation
-    // Play with the daemon flag
 }
+
+// A) 14    B) 10
+// C) 13    D) Indeterminate
+
+// The answer depends on the jvm implementation
+// Play with the daemon flag

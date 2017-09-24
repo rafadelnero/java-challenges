@@ -21,9 +21,10 @@ public class MapEqualsChallenge {
                     this.name.length(); }
         public int hashCode() { return (name.length() % 1) * 7; }
     }
-    // A) 1> 2> 3> 4> 5>    B) 2> 4> 5>
-    // C) Indeterminate     D) 5> 4> 3> 2> 1>
-
-    // Change the hashcode impl to be false/not equals
-    // Read up on hashcode/equals rules
 }
+
+// A) 1> 2> 3> 4> 5>    B) 2> 4> 5>
+// C) Indeterminate     D) 5> 4> 3> 2> 1>
+
+// Change the hashcode impl to be false/not equals
+// Read up on hashcode/equals rules
