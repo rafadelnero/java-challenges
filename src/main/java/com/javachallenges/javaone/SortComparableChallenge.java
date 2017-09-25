@@ -19,7 +19,6 @@ public class SortComparableChallenge {
 
     static class Simpson implements Comparable<Simpson> {
         String name;
-
         public Simpson(String name) { this.name = name; }
 
         @Override

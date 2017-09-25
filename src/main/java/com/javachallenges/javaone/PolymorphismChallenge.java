@@ -2,7 +2,7 @@ package com.javachallenges.javaone;
 
 public class PolymorphismChallenge {
     static abstract class Simpson {
-        void talk() { System.out.print("Simpson! "); }
+        void talk() { System.out.println("Simpson!"); }
     }
 
     static class Homer extends Simpson { public void talk() {
@@ -11,7 +11,7 @@ public class PolymorphismChallenge {
     static class Bart extends Simpson { protected void talk() {
         System.out.println("Eat my shorts!");}}
 
-    static class Lisa extends Simpson {void talk(String toMe){
+    static class Lisa extends Simpson { void talk(String toMe) {
         System.out.println("I love Sax!");}}
 
     public static void main(String[] args) {
