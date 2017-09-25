@@ -3,7 +3,7 @@ package com.javachallenges.javaone;
 import java.util.*;
 
 public class SortComparableChallenge {
-    public static void main(String[] args) {
+    public static void main(String... doYourBest) {
         Set<Simpson> set = new TreeSet<>();
         set.add(new Simpson("Homer"));
         set.add(new Simpson("Marge"));

@@ -14,7 +14,7 @@ public class PolymorphismChallenge {
     static class Lisa extends Simpson { void talk(String toMe) {
         System.out.println("I love Sax!");}}
 
-    public static void main(String[] args) {
+    public static void main(String... doYourBest) {
         new Homer().talk();
         Simpson simpson = new Bart();
         simpson.talk();

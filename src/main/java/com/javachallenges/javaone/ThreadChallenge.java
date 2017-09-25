@@ -3,7 +3,7 @@ package com.javachallenges.javaone;
 public class ThreadChallenge {
     private int wolverineAdrenaline = 10;
 
-    public static void main(String[] args) {
+    public static void main(String... doYourBest) throws InterruptedException {
         ThreadChallenge thread = new ThreadChallenge();
 
         thread.new Motorcycle("first").start();
@@ -12,9 +12,8 @@ public class ThreadChallenge {
 
         Motorcycle fastBike = thread.new Motorcycle("last");
         fastBike.setPriority(Thread.MAX_PRIORITY);
+        fastBike.setDaemon(false);
         fastBike.start();
-
-        System.out.println(thread.wolverineAdrenaline);
     }
 
     class Motorcycle extends Thread {
@@ -25,6 +24,9 @@ public class ThreadChallenge {
         @Override
         public void run() {
             ++wolverineAdrenaline;
+            if (wolverineAdrenaline == 14) {
+                System.out.println(this.getName());
+            }
         }
     }
 }

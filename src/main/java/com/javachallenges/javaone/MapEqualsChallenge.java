@@ -23,6 +23,10 @@ public class MapEqualsChallenge {
     }
 }
 
+// use bitwise operator on hashcode method
+//1100
+//011
+
 // A) 1> 2> 3> 4> 5>    B) 2> 4> 5>
 // C) Indeterminate     D) 5> 4> 3> 2> 1>
 
