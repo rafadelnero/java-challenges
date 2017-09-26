@@ -7,6 +7,7 @@ public class ThreadChallenge {
         ThreadChallenge thread = new ThreadChallenge();
 
         thread.new Motorcycle("first").start();
+        thread.runLambda();
         thread.new Motorcycle("second").start();
         thread.new Motorcycle("third").start();
 
@@ -15,6 +16,8 @@ public class ThreadChallenge {
         fastBike.setDaemon(false);
         fastBike.start();
     }
+
+    private void runLambda() { new Thread( () -> wolverineAdrenaline++); }
 
     class Motorcycle extends Thread {
         public Motorcycle(String bikeName) {
