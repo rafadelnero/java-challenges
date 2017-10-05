@@ -9,11 +9,9 @@ import java.util.TreeSet;
 /** See the answer and the concepts behind the scenes 
  *  on nobugsproject.com */
 public class SortComparableChallenge {
-    // Make your best
-    public static void main(String[] args) {
+    public static void main(String... doYourBest) {
 	Set<Simpson> set = new TreeSet<>(); 
-	set.add(new Simpson("Homer"));
-	set.add(new Simpson("Marge"));
+	set.add(new Simpson("Homer"));set.add(new Simpson("Marge"));
 	set.add(new Simpson("Lisa"));
 	set.add(new Simpson("Bart"));
 	set.add(new Simpson("Maggie"));
@@ -23,18 +21,11 @@ public class SortComparableChallenge {
 	Collections.reverse(list);
 	list.forEach(System.out::println);
     }
-    
-    static class Simpson implements Comparable<Simpson> {
-	String name;
-	
+    static class Simpson implements Comparable<Simpson> {String name;
 	public Simpson(String name) { this.name = name; }
-
-	@Override
 	public int compareTo(Simpson simpson) {
 	    return simpson.name.compareTo(this.name);
 	}
-	
-	@Override
 	public String toString() { return this.name; }
-    }
+    } 
 }

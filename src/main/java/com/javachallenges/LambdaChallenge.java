@@ -3,19 +3,24 @@ package com.javachallenges;
 /** Soon you will see the answers on 
  * 		nobugsproject.com*/
 public class LambdaChallenge {
-
 	public static void main(String ... doYourBest) {
-		String gokuPower = use(() -> "Kame-ha-me-ha!");
-		String vegetaPower = use(() -> {return "Kame-ha!!";});
+		String vitoCorleoneShoot = useRevolver(() -> "BAMM!!");
+		String michaelCorleoneShoot = useShotgun(() -> 
+			{return "POHHHH!!!";});
 		
-		System.out.println(gokuPower + vegetaPower);
+		System.out.println(vitoCorleoneShoot + 
+				michaelCorleoneShoot);
 	}
+	private static String useRevolver(Revolver revolver) {
+		return revolver.shoot();
+	}
+	static String useShotgun(Shotgun shotgun) {
+		return shotgun.shoot();
+	}
+	private interface Revolver { String shoot(); }
 	
-	static String use(SpecialPower specialPower) {
-		return specialPower.kamehameha();
-	}
-
-	public interface SpecialPower {
-		String kamehameha();
+	public interface Shotgun {
+		String shoot();
+		default  String reload() {return "Reloading..."; }
 	}
 }

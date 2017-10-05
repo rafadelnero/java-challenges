@@ -1,13 +1,11 @@
 package com.javachallenges;
 
 /** Soon you will see the result on
- *  nobugsproject.com                */
+ *  nobugsproject.com             */
 public class PolymorphismChallenge {
-	// DoYourBest
 	static abstract class Simpson {
 		void talk() { System.out.println("Simpson!"); }
 	}
-
 	static class Homer extends Simpson {
 		void talk() {
 			System.out.println("Spider Pig!");
@@ -18,12 +16,10 @@ public class PolymorphismChallenge {
 		System.out.println("Eat my short!");}}
 	
 	static class Maggie extends Simpson {}
-	
-	public static void main(String[] args) {
+	public static void main(String... doYourBest) {
 		new Homer().talk();
 		Simpson simpson = new Bart();
 		simpson.talk();
 		new Maggie().talk();
 	}
-
 }

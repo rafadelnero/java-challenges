@@ -1,21 +1,21 @@
 package com.javachallenges;
 
-/** Soon you will the answers on
- *   nobugsproject.com   */
+@SuppressWarnings("deprecation")
 public class AdvancedOverloadingChallenge3 {
 	static String x = "";
 	public static void main(String... doYourBest) {
 		executeAction(1);
 		executeAction(1.0);
-		executeAction(new Double("5"));
+		executeAction(Double.valueOf("5"));
 		executeAction(1L);
 		
 		System.out.println(x);
 	}
-	static void executeAction(int ... var) {x += "1"; }
-	static void executeAction(Integer var) {x += "2"; }
-	static void executeAction(Object var) {x += "3"; }
-	static void executeAction(short var) {x += "5"; }
-	static void executeAction(float var) {x += "6"; }
-	static void executeAction(double var) {x += "7"; }
+	static void executeAction(int ... var) {x += "a"; }
+	static void executeAction(Integer var) {x += "b"; }
+	static void executeAction(Object var)  {x += "c"; }
+	static void executeAction(short var)   {x += "d"; }
+	static void executeAction(float var)   {x += "e"; }
+	static void executeAction(double var)  {x += "f"; }
 }
+
