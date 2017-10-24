@@ -4,7 +4,7 @@ package com.javachallenges.array;
 public class ArrayChallenge {
     	//DoYourBest
 	public static void main(String args[]) {
-        try {
+        try { 
             String[] arr[] = new String[10][2];
             arr[0][0] = null;
             arr[2][2] = "one";

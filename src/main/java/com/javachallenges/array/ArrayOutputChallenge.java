@@ -6,7 +6,7 @@ import java.util.List;
 /** Soon you will see the concepts behind
  *  the scenes on nobugsproject.com */
 public class ArrayOutputChallenge {
-	
+	 
 	public static void main(String... doYourBest) {
 		List<String> list = new ArrayList<>();
 		
