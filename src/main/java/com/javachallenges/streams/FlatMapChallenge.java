@@ -15,7 +15,6 @@ public class FlatMapChallenge {
                         .map(x -> x.getFoods())
                         .flatMap(x -> x.stream())
                         .limit(4).filter(x -> x.matches(".*"))
-                        .distinct()
                         .collect(Collectors.toList());
 
         collect.forEach(x -> System.out.println(x));
