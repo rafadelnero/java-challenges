@@ -23,7 +23,9 @@ public class OptionalChallenge {
         Warrior(String name) { this.name = name; }
 
         static Optional<Warrior> getWarrior() {
+
             return Optional.of(new Warrior("Kratos"));
         }
     }
 }
+

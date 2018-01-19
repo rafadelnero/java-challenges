@@ -13,7 +13,7 @@ public class StreamChallenge2 {
 
         Map<Integer, List<Jedi>> jediByAge =
                 jediList.stream()
-                .filter(j -> j.age < 10)
+                .filter(j -> j.age < 11)
                 .collect(Collectors.groupingBy(j -> j.age));
 
         List<Jedi> newJediList = Optional.ofNullable(jediByAge.get(10))

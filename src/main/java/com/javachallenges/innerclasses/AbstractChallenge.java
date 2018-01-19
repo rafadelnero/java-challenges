@@ -4,10 +4,8 @@ public class AbstractChallenge {
     // May the force be with you
     static final  int FORCE = 10;
     
-    // Go to nobugsproject.com to see the answers!
     public static void main(String[] args) {
 	DarthVader darthVader = new DarthVader() {
-	    // Make your best, NoBugsProject
 	    public int getNumber(int number) {
 		return number;
 	    }

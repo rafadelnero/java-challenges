@@ -6,8 +6,8 @@ import java.util.function.Consumer;
 
 /** Soon you will see the answers on nobugsproject.com */
 public class ConsumerChallenge {
-	// DoYourBest
-	public static void main(String[] args) {
+
+	public static void main(String... doYourBest) {
 		List<String> castlevania = new ArrayList<>();
 		castlevania.add("Dracula");
 		castlevania.add("Alucard");

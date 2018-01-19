@@ -2,7 +2,7 @@ package com.javachallenges.flowcontrol;
 
 public class SwitchCaseChallenge {
 
-	public static void main(String[] args) {
+	public static void main(String... doYourBest) {
 		int formulaNumber = 50;
 
 		String heisenbergFormula = "";

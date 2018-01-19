@@ -1,5 +1,6 @@
 package com.javachallenges.generics;
 
+@SuppressWarnings(value = "all")
 public class GenericsChallenge2 {
 
     public static void main(String... doYourBest) {

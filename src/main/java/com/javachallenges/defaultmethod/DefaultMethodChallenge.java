@@ -2,8 +2,8 @@ package com.javachallenges.defaultmethod;
 
 /** Soon you will see the answers on nobugsproject.com */
 public class DefaultMethodChallenge {
-	// DoYourBest
-	public static void main(String[] args) {
+
+	public static void main(String... doYourBest) {
 		Jofrey jofrey = new Jofrey() {
 			@Override
 			public void kill() {
