@@ -7,6 +7,7 @@ public class SupplierChallenge {
     public static Simpson produce(Supplier<Simpson> supp) {
         return supp.get();
     }
+
     public static void main(String... doYourBest) {
         Simpson simpson = new Simpson();
 
@@ -15,5 +16,7 @@ public class SupplierChallenge {
 
         System.out.println(s1.equals(s2));
     }
-    static class Simpson { }
+
+    static class Simpson {
+    }
 }
