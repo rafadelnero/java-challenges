@@ -1,15 +1,11 @@
 package com.javachallenges.lambda;
 
-/**
- * Soon you will see the answers on
- * nobugsproject.com
- */
 public class LambdaChallenge {
+
     public static void main(String... doYourBest) {
         String vitoCorleoneShoot = useRevolver(() -> "BAMM!!");
 
-        String michaelCorleoneShoot = useShotgun(() ->
-        {
+        String michaelCorleoneShoot = useShotgun(() -> {
             return "POHHHH!!!";
         });
 
@@ -36,4 +32,5 @@ public class LambdaChallenge {
             return "Reloading...";
         }
     }
+
 }

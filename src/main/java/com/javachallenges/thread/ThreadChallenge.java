@@ -12,7 +12,7 @@ public class ThreadChallenge {
 		System.out.println(t.isDaemon());
 		
 		
-//		System.out.println(thread.wolverineAdrenaline);
+		System.out.println(thread.wolverineAdrenaline);
 	}
 
 	class Motorcycle extends Thread {
