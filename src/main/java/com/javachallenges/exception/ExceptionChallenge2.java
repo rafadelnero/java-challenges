@@ -1,7 +1,6 @@
 package com.javachallenges.exception;
 
 import java.io.Closeable;
-import java.io.IOException;
 
 public class ExceptionChallenge2 {
     public static void main(String... doYourBest) {
@@ -11,6 +10,12 @@ public class ExceptionChallenge2 {
 
         try(closeIt) {
             System.out.println(soprano.matches(null));
+        } catch (RuntimeException r) {
+           try (closeIt) {
+               System.out.println("runtime");
+
+               throw new StackOverflowError();
+           }
         } catch (Exception exception) {
             System.out.println("exception");
         } catch (Throwable throwable) {
@@ -19,7 +24,7 @@ public class ExceptionChallenge2 {
     }
     static class CloseIt implements Closeable {
 
-        public void close() throws IOException {
+        public void close() {
             System.out.println("close");
         }
     }

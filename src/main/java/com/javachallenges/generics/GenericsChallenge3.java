@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 @SuppressWarnings(value = "all")
+
 public class GenericsChallenge3 {
 
     public static void main(String... doYourBest) {

@@ -14,7 +14,7 @@ public class WildCardsChallenge {
 			foo(new Sparta<Zeus>()); 
 			
 			foo(new Sparta<Kratos>()); 
-			//foo(new C<Atreus>()); 
+			//foo(new C<Atreus>());
 			foo(new Sparta()); 
 			
 			System.out.println("Everything went fine!");

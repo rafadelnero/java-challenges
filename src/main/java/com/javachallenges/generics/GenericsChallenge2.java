@@ -1,5 +1,7 @@
 package com.javachallenges.generics;
 
+
+
 @SuppressWarnings(value = "all")
 public class GenericsChallenge2 {
 
@@ -11,7 +13,7 @@ public class GenericsChallenge2 {
         archer.attack(Float.valueOf(1));
     }
 
-    static class Archer<T> {
+     static class Archer<T> {
         T t;
 
         void attack(T t) {
@@ -20,3 +22,6 @@ public class GenericsChallenge2 {
     }
 
 }
+
+
+

@@ -6,8 +6,7 @@ public class LogicalOperatorsChallenge {
      * What will be the result?
      */
     public static void main(String[] args) {
-	// The result will be on nobugsproject.com
-	int spiderMan =10; // Get the source-code on nobugsproject.com
+	int spiderMan =10;
 	int venom = 5;
 	
 	int carnage = 50; // Answer this challenge just reading it
