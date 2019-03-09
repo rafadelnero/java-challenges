@@ -15,9 +15,11 @@ public class ExceptionChallenge2 {
                System.out.println("runtime");
 
                throw new StackOverflowError();
+           } catch (Exception e) {
+               System.out.println("exception");
            }
-        } catch (Exception exception) {
-            System.out.println("exception");
+        } catch (Error exception) {
+            System.out.println("error");
         } catch (Throwable throwable) {
             System.out.println("throwable");
         }
