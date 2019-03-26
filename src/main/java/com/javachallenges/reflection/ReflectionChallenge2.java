@@ -2,6 +2,7 @@ package com.javachallenges.reflection;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+import java.util.Arrays;
 
 public class ReflectionChallenge2 {
 
@@ -13,7 +14,7 @@ public class ReflectionChallenge2 {
     @Table(name = "jedi")
     static class Jedi {
         @Column(name="attack_type")
-        String attackType;
+        private String attackType;
 
         public String getAttackType() { return attackType; }
     }
@@ -22,3 +23,13 @@ public class ReflectionChallenge2 {
     @interface Table { String name(); }
     @interface Column { String name(); }
 }
+
+/**
+ *  Possible solution
+ *
+ *  Arrays.stream(Jedi.class.getDeclaredFields()).forEach(f -> {
+ *      if (f.getName().equals("attackType")) {
+ *           System.out.println(f.getAnnotation(Column.class).name());
+ *      }
+ *  });
+ */

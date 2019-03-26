@@ -5,8 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/** Soon wou will see the answers on
-     nobugsproject.com  */
 public class CrazyCollectionChallenge {
 	
 	public static void main(String... doYourBest) {
