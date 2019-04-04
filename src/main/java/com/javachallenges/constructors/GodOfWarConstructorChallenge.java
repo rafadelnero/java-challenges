@@ -2,11 +2,11 @@ package com.javachallenges.constructors;
 
 public class GodOfWarConstructorChallenge {
 	String name;
-	// See the concepts behind the scene on nobugsproject.com
+
 	GodOfWarConstructorChallenge(String name) { this.name = name; }
 	
 	GodOfWarConstructorChallenge() { this(getName(1)); }
-	// Make your code powerful, make your best
+
 	GodOfWarConstructorChallenge(int i) { this(getName(2)); }
 	
 	GodOfWarConstructorChallenge(Object i) { this(getName((Integer) i)); }

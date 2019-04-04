@@ -7,13 +7,14 @@ public class ListRemoveIfChallenge {
 
     public static void main(String... dungeonsAndDragons) {
         List<Integer> list = new ArrayList<>();
+
         list.add(22);
         list.add(12);
         list.add(14);
         list.add(128);
 
-        Integer dungeonMasterAge = 128;
         Integer prestoAge = 14;
+        Integer dungeonMasterAge = 128;
 
         list.removeIf(e -> e == new Integer(12)
                 || e == dungeonMasterAge
@@ -23,3 +24,8 @@ public class ListRemoveIfChallenge {
         System.out.println(list);
     }
 }
+
+// Dorival       - 22, 128
+// Rinaldo Fahra - 12, 128
+// Lucas         - 14
+// Padhu         - 12

@@ -3,9 +3,8 @@ package com.javachallenges.methodreference;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Soon you will see the answers on nobugsproject.com */
 public class MethodReferenceChallenge {
-	// DoYourBest
+
 	public static void main(String[] args) {
 		List<Homer> homers = new ArrayList<>();
 		homers.add(new Homer());

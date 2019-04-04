@@ -3,8 +3,6 @@ package com.javachallenges.array;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Soon you will the answers on 
- *   nobugsproject.com */
 public class ArrayIterationChallenge {
 	public static void main(String... doYourBest) {
 		List<String> list = new ArrayList<>();
@@ -16,7 +14,7 @@ public class ArrayIterationChallenge {
 		list.add("var5");
 
 		for (String var : list) {
-			if (var.equals("var2")) {
+			if (var.equals("var1") || var.equals("var4")) {
 				list.remove(var);
 			}
 		}

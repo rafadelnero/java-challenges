@@ -3,12 +3,10 @@ package com.javachallenges.collections;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-/** Soon you will see the answers on
- *   nobugsproject.com */
 public class CollectionTypesChallenge {
 
 	public static void main(String... doYourBest) {
-		SortedSet<String> set = new TreeSet<String>();
+		SortedSet<String> set = new TreeSet<>();
 
 		set.add("b");
 		set.add("c");
