@@ -18,5 +18,13 @@ public class StreamDistinctChallenge {
         Warrior(String name) {
             this.name = name;
         }
+
+        public int hashCode() {
+            return this.name.length();
+        }
+
+        public boolean equals(Object obj) {
+            return this.name.equals(((Warrior)obj).name);
+        }
     }
 }
