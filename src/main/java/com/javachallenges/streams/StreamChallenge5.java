@@ -4,16 +4,17 @@ import java.util.List;
 
 public class StreamChallenge5 {
     public static void main(String... doYourBest) {
-        List<Jedi> jediList = List.of(new Jedi("Luke", 20), new Jedi("ObiWan", 30),
-                new Jedi("QuiGon", 40));
+        List<Jedi> jediList = List.of(new Jedi("Luke", 20),
+                new Jedi("ObiWan", 30), new Jedi("QuiGon", 40));
 
         jediList.stream()
-                .filter(jedi -> jedi.name.startsWith("Obi"))
-                .filter(jedi -> jedi.name.startsWith("Lu"))
+                .filter(jedi -> jedi.name.startsWith("Obi") || jedi.name.startsWith("Luke"))
+                .filter(jedi -> jedi.name.startsWith("QuiGon"))
                 .map(Jedi::getAge)
-                .filter(age -> age > 30)
-                .forEach(age -> System.out.println(age));
+                .filter(age -> age > 10)
+                .forEach(System.out::println);
     }
+
     static class Jedi {
         private String name;
         private int age;

@@ -3,10 +3,6 @@ package com.javachallenges.generics;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * a - It will not compile | b - Maggie c - RuntimeException at line 30 | d -
- * Homer
- */
 @SuppressWarnings({ "rawtypes", "unchecked" })
 public class GenericsChallenge {
 	public static void main(String... doYourBest) {
@@ -33,3 +29,6 @@ public class GenericsChallenge {
 		}
 	}
 }
+
+
+

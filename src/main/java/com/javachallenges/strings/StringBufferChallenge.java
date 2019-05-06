@@ -1,7 +1,5 @@
 package com.javachallenges.strings;
 
-/** See the answer and the concepts behind the scenes 
- *  on nobugsproject.com */
 public class StringBufferChallenge {
 
 	public static void main(String... doYourBest) {
@@ -14,3 +12,5 @@ public class StringBufferChallenge {
 		System.out.println(buffer);
 	}
 }
+
+

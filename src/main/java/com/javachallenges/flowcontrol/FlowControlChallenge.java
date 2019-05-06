@@ -1,25 +1,34 @@
 package com.javachallenges.flowcontrol;
 
-/** Soon see the answer on nobugsproject.com */
 public class FlowControlChallenge {
-		public static void main(String[] args) {
-			// DoYourBest
-			boolean isHomerFat = true;
-			boolean isBartPrankster = true;
-			
-			String result = "";
-			
-			if (isHomerFat = false || (isBartPrankster = false)) {
-				result += "1";
-			} else if (isHomerFat || isBartPrankster) {
-				result += "2";
-			} else if (!isHomerFat && !isBartPrankster) {
-				result += "3";
-			} else
-				result +="4";
-			
-			
-			System.out.println(result + isHomerFat + isBartPrankster);
-		}
 
+    static String String;
+
+    public static void main(String... doYourBest) {
+        System.out.println(String);
+
+        boolean isHomerFat;
+        boolean isBartPrankster = false;
+
+        int result = 0;
+
+        if (isHomerFat = true | (isBartPrankster = true)) {
+            result++;
+            isHomerFat = false;
+        }
+
+       // condition && condition
+        if (isHomerFat || isBartPrankster & (isBartPrankster = false || isHomerFat)) {
+            result++;
+        }
+
+        if (!isHomerFat && !isBartPrankster) {
+            result++;
+        }
+
+        System.out.println(String.valueOf(result) + isHomerFat + isBartPrankster);
+    }
 }
+
+// Rodrigo Rinaldo 2falsefalse
+// Farhad Dorival  Compilation fails

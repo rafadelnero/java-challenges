@@ -1,7 +1,5 @@
 package com.javachallenges.objectreferences;
 
-/** Soon you will see the answers
- *   on nobugsproject.com */
 public class ReferenceChallenge {
 	
 	public static void testRefs(String str, StringBuffer sb) {
