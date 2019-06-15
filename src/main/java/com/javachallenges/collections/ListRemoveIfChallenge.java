@@ -25,7 +25,4 @@ public class ListRemoveIfChallenge {
     }
 }
 
-// Dorival       - 22, 128
-// Rinaldo Fahra - 12, 128
-// Lucas         - 14
-// Padhu         - 12
+

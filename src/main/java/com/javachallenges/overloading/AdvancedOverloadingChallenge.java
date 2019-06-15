@@ -1,7 +1,5 @@
 package com.javachallenges.overloading;
 
-/** Soon you will see the answers on
-      nobugsproject.com*/
 public class AdvancedOverloadingChallenge {
 	public static void main(String... doYourBest) {
 		slash(1L,  Float.valueOf(1));

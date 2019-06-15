@@ -1,23 +1,29 @@
 package com.javachallenges.overloading;
 
-/** Soon you will see the answers on
- *   nobugsproject.com */
+import java.sql.SQLException;
+
 public class AdvancedOverloadingChallenge2 {
-	static String s = "";
+
+	static String finalResult = "";
+
 	public static void main(String... doYourBest) {
-		int x = 4;
-		Boolean y = true;
-		short[] sa = { 1, 2, 3 };
-		doStuff(x, y);
-		doStuff(x);
-		doStuff(sa, sa);
-		doStuff(4L);
-		System.out.println(s);
+        executeAction(1, true);
+        executeAction();
+        executeAction(new int[]{1, 2, 3}, 1);
+        executeAction(1L);
+        executeAction(1);
+        executeAction(Double.valueOf(1));
+
+		System.out.println(finalResult);
 	}
 	
-	static void doStuff(Object o) { s += "1"; }
-	static void doStuff(Object... o) { s += "2";}
-	static void doStuff(Integer... i) { s += "3";}
-	static void doStuff(Long l) { s += "4";}
-	
+	static void executeAction(Object o) { finalResult += "1"; }
+	static void executeAction(Object... o) { finalResult += "2";}
+	static void executeAction(Exception... i) { finalResult += "3";}
+	static void executeAction(Long l) { finalResult += "4";}
+    static void executeAction(double d) { finalResult += "5";}
+
 }
+
+
+

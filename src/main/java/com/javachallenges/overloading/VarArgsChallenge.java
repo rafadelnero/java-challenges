@@ -11,7 +11,7 @@ public class VarArgsChallenge {
 	}
 //	static String doStuff(String...varArgs, Integer number) {
 //		return number.toString();
-//	} It's not possible to use varArgs before any parameter.
+//	} It'finalResult not possible to use varArgs before any parameter.
 	
 	static String doStuff(String ...varArgs) {
 		String noBugs = "";

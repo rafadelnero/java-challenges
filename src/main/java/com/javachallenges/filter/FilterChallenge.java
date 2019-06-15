@@ -5,10 +5,8 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-/** See the concepts behind the scenes
- * on nobugsproject.com */
 public class FilterChallenge {
-	// DoYourBest
+
 	public static void main(String... java) {
 		List<Integer> list1 = Arrays.asList(3, 43, 33, 787);
 		List<Integer> list2 = Arrays.asList(1, 2);

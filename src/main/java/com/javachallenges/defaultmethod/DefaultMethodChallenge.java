@@ -1,29 +1,30 @@
 package com.javachallenges.defaultmethod;
 
-/** Soon you will see the answers on nobugsproject.com */
 public class DefaultMethodChallenge {
 
-	public static void main(String... doYourBest) {
-		Jofrey jofrey = new Jofrey() {
-			@Override
-			public void kill() {
-				Jofrey.super.kill();
-			}
-		};
+    public static void main(String... doYourBest) {
+        Jofrey jofrey = new Jofrey() {
+            @Override
+            public void kill() {
+                Jofrey.super.kill();
+            }
+        };
 
-		jofrey.kill();
-	}
+        jofrey.kill();
+    }
 
-	interface Cersei {
-		default void kill() {
-			System.out.println("When you play the "
-					+ "Game of Thrones, you win or die");
-		}
-	}
+    interface Cersei {
+        default void kill() {
+            System.out.println("When you play the "
+                    + "Game of Thrones, you win or die");
+        }
+    }
 
-	interface Jofrey extends Cersei {
-		default void kill() {
-			System.out.println("Kill them all!");
-		}
-	}
+    interface Jofrey extends Cersei {
+        default void kill() {
+            System.out.println("Kill them all!");
+        }
+    }
 }
+
+

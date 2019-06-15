@@ -17,7 +17,6 @@ public class FlowControlChallenge {
             isHomerFat = false;
         }
 
-       // condition && condition
         if (isHomerFat || isBartPrankster & (isBartPrankster = false || isHomerFat)) {
             result++;
         }
@@ -30,5 +29,4 @@ public class FlowControlChallenge {
     }
 }
 
-// Rodrigo Rinaldo 2falsefalse
-// Farhad Dorival  Compilation fails
+

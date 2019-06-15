@@ -11,7 +11,6 @@ public class ThreadChallenge {
 		Thread t = thread.new Motorcycle();
 		System.out.println(t.isDaemon());
 		
-		
 		System.out.println(thread.wolverineAdrenaline);
 	}
 

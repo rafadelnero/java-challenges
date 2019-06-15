@@ -1,11 +1,11 @@
 package com.javachallenges.streams;
 
-import java.util.Set;
+import java.util.List;
 
 public class StreamDistinctChallenge {
 
     public static void main(String... doYourBest) {
-        Set<Warrior> warriors = Set.of(new Warrior("Ezio"), new Warrior("Ezio"),
+        List<Warrior> warriors = List.of(new Warrior("Ezio"), new Warrior("Ezio"),
                 new Warrior("Kratos"), new Warrior("Cloud"), new Warrior("Alucard"));
 
         warriors.stream()
@@ -15,6 +15,7 @@ public class StreamDistinctChallenge {
 
     static class Warrior {
         private String name;
+
         Warrior(String name) {
             this.name = name;
         }
@@ -24,7 +25,11 @@ public class StreamDistinctChallenge {
         }
 
         public boolean equals(Object obj) {
-            return this.name.equals(((Warrior)obj).name);
+            return this.name.equals(((Warrior) obj).name);
         }
     }
 }
+
+
+
+
