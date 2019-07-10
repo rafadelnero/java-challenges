@@ -9,7 +9,6 @@ import java.util.List;
 public class InvocationHandlerChallenge implements InvocationHandler {
 
     private final List proxied;
-
     InvocationHandlerChallenge(List proxied) {
         this.proxied = proxied;
     }
@@ -31,7 +30,6 @@ public class InvocationHandlerChallenge implements InvocationHandler {
                 InvocationHandlerChallenge.class.getClassLoader(),
                 new Class[] { List.class },
                 new InvocationHandlerChallenge(new ArrayList()));
-
         proxy.add("Barney");
         proxy.add("Homer");
         proxy.add("Moe");
@@ -42,5 +40,6 @@ public class InvocationHandlerChallenge implements InvocationHandler {
 
         System.out.println(proxy);
     }
-
 }
+
+

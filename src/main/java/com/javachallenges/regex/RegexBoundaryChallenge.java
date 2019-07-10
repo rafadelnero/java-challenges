@@ -3,8 +3,6 @@ package com.javachallenges.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/** Soon you will see the answers on 
- *   nobugsproject.com  */
 public class RegexBoundaryChallenge {
 	
  public static void main(String... doYourBest) {

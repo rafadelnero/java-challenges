@@ -19,7 +19,7 @@ public class Java12SwitchCaseChallenge {
                 break (T) (Object) (Integer.valueOf(129) == 129 ? 5 : 7);
             }
             case FRIDAY -> (T) Double.valueOf(4);
-            case SATURDAY, SUNDAY -> (T) (Object) "6" == new String("6") ? 2 : 4;
+            case SATURDAY, SUNDAY -> (T) "6" == new String("6") ? 2 : 4;
             default -> new IllegalStateException("Non existent day.");
         };
 
@@ -30,5 +30,7 @@ public class Java12SwitchCaseChallenge {
         MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY, NO_BEER_DAY
     }
 }
+
+
 
 
