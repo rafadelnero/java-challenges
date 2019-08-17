@@ -19,6 +19,7 @@ public class SpliteratorChallenge {
         private String name;
         public Animal(String name) { this.name = name;}
     }
+
     static class AnimalSpliterator implements Spliterator<Animal> {
         Spliterator<Animal> spliterator;
         private String name;

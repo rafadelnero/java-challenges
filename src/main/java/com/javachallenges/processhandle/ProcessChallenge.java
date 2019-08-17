@@ -1,7 +1,5 @@
 package com.javachallenges.processhandle;
 
-/** Soon you will see the answers on
- *   nobugsproject. */
 public class ProcessChallenge {
 	public static void main(String... doYourBest) 
 			throws IllegalAccessException {

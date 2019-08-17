@@ -12,7 +12,7 @@ public class ReflectionChallenge3 {
         method2.invoke(new ReflectionChallenge3());
     }
 
-    public void doStuff() {
+    void doStuff() {
         System.out.println("doStuff");
     }
 }

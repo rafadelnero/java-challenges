@@ -11,11 +11,13 @@ public class WildCardsChallenge2 {
 
         list.forEach(System.out::println);
     }
+
     static class Generic<T extends Object> {}
 
     static<T extends Object> void wild(Generic<T> generic) {
         System.out.println("wild1");
     }
+
     static<T> List<T> wild2(List<T> list) {
         list.add((T)new Object());
         list.add((T) new String());
