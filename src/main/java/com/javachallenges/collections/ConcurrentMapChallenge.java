@@ -3,8 +3,6 @@ package com.javachallenges.collections;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
-/** Soon you will see the answers on
- *   nobugsproject.com */
 public class ConcurrentMapChallenge {
 
 	public static void main(String... doYourBest) {

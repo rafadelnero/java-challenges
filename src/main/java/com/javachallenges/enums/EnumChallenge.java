@@ -15,7 +15,7 @@ public class EnumChallenge {
         }
         System.out.println((dragonBall2 == dragonBall1) ?
                 "Same dragon ball" : "new Dragonball");
-        System.out.println(dragonBall2); // Make your best
+        System.out.println(dragonBall2);
     }
 
     enum DragonBalls implements Invoker {

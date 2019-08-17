@@ -41,7 +41,3 @@ public class RegexChallenge2 {
 
 }
 
-// Rodrigo - true true false false false false
-// Dorival - true true true false false false
-// Farad   - false false false false false false
-
