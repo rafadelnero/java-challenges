@@ -2,7 +2,6 @@ package com.javachallenges.array;
 
 /** See the answer and concepts on nobugsproject.com */
 public class ArrayChallenge {
-    	//DoYourBest
 	public static void main(String args[]) {
         try { 
             String[] arr[] = new String[10][2];

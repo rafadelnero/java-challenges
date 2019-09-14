@@ -5,8 +5,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
-/** Soon you will see the concepts 
- *  behind the scenes on nobugsproject.com */
 public class StreamChallenge {
 	public static void main(String[] doYourBest) {
 		List<Simpson> simpsons = Arrays.asList(new Simpson("Homer", 35), 
@@ -24,7 +22,7 @@ public class StreamChallenge {
 		String name;
 		int age;
 
-		public Simpson(String name, int age) {
+		Simpson(String name, int age) {
 			this.name = name;
 			this.age = age;
 		}

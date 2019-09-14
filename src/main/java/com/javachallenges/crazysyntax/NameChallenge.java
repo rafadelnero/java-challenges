@@ -1,7 +1,5 @@
 package com.javachallenges.crazysyntax;
 
-/** Soon you will see the answers 
- *   on nobugsproject.com */
 public class NameChallenge {
 	
 	native void execute();

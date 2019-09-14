@@ -1,6 +1,5 @@
 package com.javachallenges.streams;
 
-import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
@@ -17,7 +16,8 @@ public class FunctionsStreamChallenge {
         System.out.println(number);
     }
 
-    public static boolean isEven(int number) {
+    private static boolean isEven(int number) {
         return number % 2 == 0;
     }
 }
+

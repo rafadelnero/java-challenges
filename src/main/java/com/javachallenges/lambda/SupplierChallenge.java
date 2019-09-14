@@ -4,7 +4,7 @@ import java.util.function.Supplier;
 
 public class SupplierChallenge {
 
-    public static Simpson produce(Supplier<Simpson> supp) {
+    static Simpson produce(Supplier<Simpson> supp) {
         return supp.get();
     }
 
@@ -20,3 +20,5 @@ public class SupplierChallenge {
     static class Simpson {
     }
 }
+
+

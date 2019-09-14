@@ -4,20 +4,22 @@ import java.io.Serializable;
 import java.util.Arrays;
 import java.util.HashMap;
 
-/** Soon you will see the answers
- *  on nobugsproject.com */
 @SuppressWarnings({"serial", "surpressIt", "unchecked"})
 public strictfp class IsItGoingToCompileChallenge <A extends Object,B,
 	C,D,E,D4, D7,_0, __90 extends HashMap<WoW, Hehe>, $OP,
 	$ThatIsIt, WoW, Hehe> extends HashMap<A, B> {
+
 	$OP a = ($OP) new Serializable() {};
 	B b; C c, $ThatIsIt, WoW;
 	__90 _s = (__90) new HashMap<>();
+
 	transient final int transienteAtribute = 5;;;;
-	class A {class B{ class C {class D{
+
+	class A {class B{ class C { class D {
 		final class E{ @SuppressWarnings("unused")
 		private class F<ItWontCompile> extends B {}}
 	}}}}
+
 	volatile int volatileAttribute = 5;
 	strictfp<NoBugsProject> void strictfpMethod(NoBugsProject
 			noBugsProject) {

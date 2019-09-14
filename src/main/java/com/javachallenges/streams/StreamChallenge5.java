@@ -26,3 +26,5 @@ public class StreamChallenge5 {
         public int getAge() { return age; }
     }
 }
+
+

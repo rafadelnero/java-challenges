@@ -3,7 +3,7 @@ package com.javachallenges.ofnullable;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class OfNullableChallenge {
+public class OfNullableChallenger {
 
 	public static void main(String... args) {
 		Soprano soprano = null;

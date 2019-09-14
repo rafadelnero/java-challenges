@@ -1,7 +1,5 @@
 package com.javachallenges.thread;
 
-/** Soon you will see the answers on
- *  nobugsproject.com*/
 public class ThreadStartChallenge {
 	
 	public static void main(String... doYourBest) 

@@ -14,10 +14,10 @@ public class MethodReferenceChallenge4 {
         System.out.println(result);
     }
 
-    static int add(double a, double b) {
+    private static int add(double a, double b) {
         return (int) (a + b);
     }
-    static int subtract(double a, double b) {
+    private static int subtract(double a, double b) {
         return (int) (a - b + a);
     }
 

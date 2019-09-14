@@ -14,7 +14,7 @@ public class ExceptionValueChallenge {
 		}
 
 		static int lightningOfZeus(int i) throws Exception {
-			throw new StackOverflowError("Wowww!"); // Exception RuntimeException Error
+			throw new StackOverflowError("Wowww!");
 		}
 
 		static int invokeAGod(int a, int b, int c) {
