@@ -11,7 +11,7 @@ public class MapEqualsChallenge {
 		map.put(new Stark("Sansa"), "3"); map.put(new Stark("Bran"), "4");
 		map.put(new Stark("Jaime"), "5");
 		
-		map.forEach((k, v) -> System.out.println(v));
+		map.forEach((k, v) -> System.out.print(v));
 	}
 	static class Stark {
 		String name;

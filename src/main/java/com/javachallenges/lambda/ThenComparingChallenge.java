@@ -6,7 +6,6 @@ import java.util.Comparator;
 import java.util.List;
 
 public class ThenComparingChallenge {
-
     public static void main(String... doYourBest) {
         List<Jedi> jediList = new ArrayList<>();
         jediList.add(new Jedi("Anakin", 10));
@@ -25,9 +24,7 @@ public class ThenComparingChallenge {
     static class Jedi {
         String name;
         Integer age;
-        public Jedi(String name, Integer age) {
-            this.name = name;
-            this.age = age; }
+        public Jedi(String name, Integer age) { this.name = name; this.age = age; }
         public String getName() { return name; }
         public Integer getAge() { return age;  }
     }

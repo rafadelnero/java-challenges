@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  */
 public class OptionalCodeOneChallenge {
 
-        static String finalZionValue = "";
+        static String finalZionValue = null;
         static int matrixCount = 0;
 
         public static void main(String... matrix) {
