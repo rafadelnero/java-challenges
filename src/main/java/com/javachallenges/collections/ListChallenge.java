@@ -1,6 +1,5 @@
 package com.javachallenges.collections;
 
-import java.util.Arrays;
 import java.util.List;
 
 /** Soon you will see the answers on
