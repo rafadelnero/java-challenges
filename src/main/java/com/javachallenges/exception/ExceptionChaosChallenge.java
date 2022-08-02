@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
  b - -runfinoferror
  c - -runfinoferrorJVMError
  d - -excfinoferrorJVMError */
-public class ExceptionChallenge {
+public class ExceptionChaosChallenge {
     static String s = "-";
 
     public static void main(String... doYouBest) {

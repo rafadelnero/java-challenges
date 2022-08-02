@@ -1,8 +1,11 @@
 package com.javachallenges.function;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.function.Function;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
+import org.apache.maven.shared.utils.StringUtils;
 
 public class FunctionChallenge {
 
@@ -11,6 +14,10 @@ public class FunctionChallenge {
 
         Function<String, Stream<String>> lineSplitter =
                 l -> Pattern.compile(" ").splitAsStream(l);
+
+        List<String> list = List.of("Test", "Test2");
+        list.forEach(String::valueOf);
+
 
         Stream.of(starWars)
                 .flatMap(lineSplitter)

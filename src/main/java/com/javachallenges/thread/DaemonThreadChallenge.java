@@ -1,7 +1,5 @@
 package com.javachallenges.thread;
 
-/** Soon you will see the answers on
- *   nobugsproject.com */
 public class DaemonThreadChallenge implements Runnable {
 
 		public static void main(String... doYourBest) {
@@ -14,12 +12,6 @@ public class DaemonThreadChallenge implements Runnable {
 		public void run() {
 			for (;;) {
 				System.out.println("For ever");
-				try {
-					wait();
-					wait();
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
 			}
 		}
 }

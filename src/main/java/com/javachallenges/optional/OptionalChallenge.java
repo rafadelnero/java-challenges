@@ -8,7 +8,7 @@ public class OptionalChallenge {
         Optional<Warrior> optWarrior = Warrior.getWarrior();
 
         Optional<Warrior> strongestWarrior = getEmpty()
-                .or(() -> Warrior.getWarrior())
+                .or(Warrior::getWarrior)
                 .or(() -> optWarrior);
 
         System.out.println(strongestWarrior.get().name);
