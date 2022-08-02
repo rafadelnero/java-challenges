@@ -1,9 +1,8 @@
 package com.javachallenges.thread;
 
-public class ThreadStartChallenge {
+public class DangerousThread {
 	
-	public static void main(String... doYourBest) 
-			throws InterruptedException {
+	public static void main(String... doYourBest) throws InterruptedException {
 		Thread heisenberg = new Heisenberg();
 		
 		heisenberg.start();

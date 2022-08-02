@@ -4,8 +4,6 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 
-/** Soon you will see the answers on
- *   nobugsproject.com */
 public class HashtableMapChallenge {
 	
 	public static void main(String... doYourBest) {
@@ -13,8 +11,7 @@ public class HashtableMapChallenge {
 		map.put(null, "Dracarys");
 		map.put(null, "Slash");
 		
-		Map<String, String> hashtable = 
-				new Hashtable<String, String>();
+		Map<String, String> hashtable = new Hashtable<>();
 		
 		hashtable.putAll(map);
 		

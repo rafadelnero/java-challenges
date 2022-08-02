@@ -1,6 +1,6 @@
 package com.javachallenges.generics;
 
-public class GenericsCastChallenge {
+public class GetThePokemonChallenger {
 
 	static <Ditto> Ditto cast(Object anyPokemon) { // ERROR1
 		return (Ditto) anyPokemon;

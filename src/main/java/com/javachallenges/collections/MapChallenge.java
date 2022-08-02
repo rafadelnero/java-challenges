@@ -5,7 +5,7 @@ import java.util.Map;
 
 /** See the answer on nobugsproject.com */
 public class MapChallenge {
-    // DoYourBest
+
     public static void main(String[] args) {
 	Map<Lannister, String> m = new HashMap<>();
 

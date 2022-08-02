@@ -10,10 +10,11 @@ public class BinarySearchChallenge {
         Arrays.sort(marvel);
 
         System.out.println(marvel);
-        System.out.println(Arrays.binarySearch(marvel, "XMary Jane"));
+        System.out.println(Arrays.binarySearch(marvel, "Xavier"));
         System.out.println(marvel[Arrays.binarySearch(marvel, "Carnage")]);
         System.out.println(Arrays.binarySearch(marvel, "Lizard"));
-        System.out.println(Arrays.binarySearch(marvel, "ACrime Master"));
+        System.out.println(Arrays.binarySearch(marvel, "Apocalypse"));
+        System.out.println(Arrays.binarySearch(marvel, "Spiderman"));
     }
 
 }

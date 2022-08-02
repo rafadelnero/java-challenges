@@ -6,11 +6,11 @@ public class LogicalOperatorsChallenge {
         int spiderMan = 10;
         int venom = 5;
 
-        int carnage = 50; // Answer this challenge just reading it
+        int carnage = 50;
 
         if (spiderMan == 11 & venom++ == 5) {
             venom++;
-        } // You must be the compiler
+        }
 
         if (++carnage == 50 | spiderMan++ == 11 | spiderMan++ == 12
                 | spiderMan++ == 13 | spiderMan++ == 14) {

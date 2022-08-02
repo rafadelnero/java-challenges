@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.nobugsproject</groupId>
+	<groupId>com.javachallenges</groupId>
 	<artifactId>java-challenges</artifactId>
+	<packaging>pom</packaging>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
 
 	<name>Java Challenges</name>
 	<description>Java Challenges - challenges for Java, can you take it?</description>
@@ -14,21 +14,43 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>12</java.version>
+		<java.version>17</java.version>
 	</properties>
 
 	<dependencies>
 
+		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>31.1-jre</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.12.0</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-compiler-plugin</artifactId>
-			<version>3.8.0</version>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.8.2</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>4.5.1</version>
+			<scope>test</scope>
 		</dependency>
 
 	</dependencies>
@@ -38,9 +60,11 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.0</version>
+				<version>3.7.0</version>
 				<configuration>
-					<release>12</release>
+					<release>${java.version}</release>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
 					<compilerArgs>--enable-preview</compilerArgs>
 				</configuration>
 			</plugin>

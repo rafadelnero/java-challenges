@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class ThenComparingChallenge {
+public class TheJediComparison {
 
     public static void main(String... doYourBest) {
         List<Jedi> jediList = new ArrayList<>();
@@ -14,9 +14,8 @@ public class ThenComparingChallenge {
         jediList.add(new Jedi("Luke", 6));
         jediList.add(new Jedi("Obi Wan", 7));
 
-        Comparator<Jedi> comparator = Comparator
-                .comparing(Jedi::getName).thenComparing((a1,a2) -> a2.age
-                        .compareTo(a1.getAge()));
+        Comparator<Jedi> comparator = Comparator.comparing(Jedi::getName)
+                .thenComparing((a1,a2) -> a2.age.compareTo(a1.getAge()));
 
         Collections.sort(jediList, comparator);
         jediList.forEach(j -> System.out.println(j.name + ":" + j.age));
@@ -25,10 +24,12 @@ public class ThenComparingChallenge {
     static class Jedi {
         String name;
         Integer age;
-        public Jedi(String name, Integer age) {
+        Jedi(String name, Integer age) {
             this.name = name;
-            this.age = age; }
+            this.age = age;
+        }
         public String getName() { return name; }
         public Integer getAge() { return age;  }
     }
+
 }

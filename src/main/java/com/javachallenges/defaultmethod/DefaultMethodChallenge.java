@@ -15,8 +15,7 @@ public class DefaultMethodChallenge {
 
     interface Cersei {
         default void kill() {
-            System.out.println("When you play the "
-                    + "Game of Thrones, you win or die");
+            System.out.println("When you play the Game of Thrones, you win or die");
         }
     }
 

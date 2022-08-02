@@ -3,8 +3,6 @@ package com.javachallenges.trywithresources;
 import java.io.Closeable;
 import java.io.IOException;
 
-/** Soon you will see the answers on
- *   nobugsproject.com */
 public class TryWithResourcesChallenge {
 
 	public static void main(String... doYourBest) {

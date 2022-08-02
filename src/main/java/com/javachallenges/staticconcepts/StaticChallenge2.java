@@ -5,7 +5,6 @@ public class StaticChallenge2 {
     public static void main(String... doYourBest) {
         Simpson homerSimpson = new Simpson("Homer", 35);
         homerSimpson.age++;
-
         Simpson bartSimpson = new Simpson("Bart", 8);
         bartSimpson.age++;
 
